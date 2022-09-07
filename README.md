@@ -50,10 +50,10 @@ using `ls > directory_contents.txt` to dump the contents of a directory to a fil
 
 To display CPU information, I used the following command:
 
-```To display CPU information, I used the following command:
-top # Shows the top processes on the system 
-# Sorted by CPU activity
-ps # shows a quick display of a few processes, just the process associated     # with the current terminal session
+```
+top    # Shows the top processes on the system 
+       # Sorted by CPU activity
+ps     # shows a quick display of a few processes, just the process associated     # with the current terminal session
 
        
 ```
@@ -68,10 +68,11 @@ in your writeup.
 
 ### Solution
 
-```
+
 To display programs in order of processing and memory I used:
-top # Shows the top processes sorted by CPU activity
-m # while in the screen for top pressing m will give memory information
+```
+top    # Shows the top processes sorted by CPU activity
+m      # while in the screen for top pressing m will give memory information
 
 
 ```
@@ -86,12 +87,15 @@ determine this information.
 
 ### Solution
 
-```
+
 To locate bash I used:
-which bash $ which is a command that returns the location of the following
-$ bash is located in usr/bin/bash
+```
+which bash    $ which is a command that returns the location of the following
+              $ bash is located in usr/bin/bash
+```
 To find my bash version I used:
+```
 bash –version $ this returns the version and other information on bash 
-$ I have GNU bash, version 5.0.16(1) 
+              $ I have GNU bash, version 5.0.16(1) 
 
 ```
