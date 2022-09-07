@@ -1,4 +1,4 @@
-# ME 701 -- Homework 1 -- Your Name Here
+# ME 701 -- Homework 1 -- Grace Wojcik
 
 ## Instructions
 
@@ -27,11 +27,13 @@ or Octave).
 
 ### Solution
 
-Write your solution here.  Note, in the past, we've used a full, graphical
-version of Linux.  With WSL, you probably don't have as direct a path for
-exploring software in the Software Manager.  However, use the power of
-Google (or AskJeeves) to explore what sorts of open-source software is out
-there for technical or other applications.
+I have been looking for a way to edit pdfs for free without purchasing Adobe Acrobat Pro. 
+I use pdf editors all the time for the class that I help teach. Things as simple as reordering
+pages or changing old document titles is very frustrating without a proper pdf editor. I found
+an alternative online called LibreOffice Draw. I tried to find out how to install it on Linux
+and found some promising source code download links, but I could not get it to install on 
+ubuntu. I will likely try to install this software again and may even recommend it to my
+students if it works for the purposes that I need.
 
 
 ## Problem 3 -- Your CPU
@@ -48,9 +50,12 @@ using `ls > directory_contents.txt` to dump the contents of a directory to a fil
 
 To display CPU information, I used the following command:
 
-```bash
-ls -al # <--- that's not right, but it shows you how to include
-       #      code in Markdown!
+```To display CPU information, I used the following command:
+top # Shows the top processes on the system 
+# Sorted by CPU activity
+ps # shows a quick display of a few processes, just the process associated     # with the current terminal session
+
+       
 ```
 
 ## Problem 4 -- Resource Hogs
@@ -63,7 +68,13 @@ in your writeup.
 
 ### Solution
 
+```
+To display programs in order of processing and memory I used:
+top # Shows the top processes sorted by CPU activity
+m # while in the screen for top pressing m will give memory information
 
+
+```
 
 ## Problem 5 -- `bash`
 
@@ -74,3 +85,13 @@ Where is `bash` located on your Linux system?  And what version of
 determine this information.
 
 ### Solution
+
+```
+To locate bash I used:
+which bash $ which is a command that returns the location of the following
+$ bash is located in usr/bin/bash
+To find my bash version I used:
+bash –version $ this returns the version and other information on bash 
+$ I have GNU bash, version 5.0.16(1) 
+
+```
